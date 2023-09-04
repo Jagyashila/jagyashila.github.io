@@ -1,0 +1,60 @@
+# site settings
+
+title: Jagyashila Das
+description: Exploring curiosities and complexities
+taglong: Exploring curiosities and complexities
+tagshort: PhD student
+url: ""
+baseurl: ""
+permalink: pretty
+repo: https://github.com/username/username.github.io
+
+# author settings
+
+author:
+  name: Jagyashila Das
+  email: jagyashiladas22@gmail.com
+photo: /assets/jpg/photo.jpg
+
+# social media links
+
+social:
+  orcid: 0000-0001-7776-2378
+  github: Jagyashila
+  instagram: demidoc_
+  linkedin: jagyashila-das-097124104
+  twitter: demiDoc_
+
+# build settings
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
